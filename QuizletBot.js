@@ -6,6 +6,7 @@
 // @updateURL    https://raw.githubusercontent.com/TamoghnaK13/QuizletBot/Master/QuizletBot.js
 // @downloadURL  https://raw.githubusercontent.com/TamoghnaK13/QuizletBot/Master/QuizletBot.js
 // @author       Retrospicer
+// @supportURL   https://github.com/TamoghnaK13/QuizletBot/issues
 // @match        https://quizlet.com/*/*
 // @grant        none
 // @license MIT
