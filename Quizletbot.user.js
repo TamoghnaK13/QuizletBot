@@ -3,8 +3,8 @@
 // @namespace    QuizletBot by Retrospicer
 // @version      0.1
 // @description  A Quizlet hack to assist with your Quizlets - the time will freeze at the desired point and the answers will be highlighted as the same color.
-// @updateURL    https://github.com/TamoghnaK13/QuizletBot/raw/main/QuizletBot.user.js
-// @downloadURL  https://github.com/TamoghnaK13/QuizletBot/raw/main/QuizletBot.user.js
+// @updateURL    https://github.com/TamoghnaK13/QuizletBot/raw/main/Quizletbot.user.js
+// @downloadURL  https://github.com/TamoghnaK13/QuizletBot/raw/main/Quizletbot.user.js
 // @author       Retrospicer
 // @supportURL   https://github.com/TamoghnaK13/QuizletBot/issues
 // @match        https://quizlet.com/*/*
