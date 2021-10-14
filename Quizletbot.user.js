@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         QuizletBot
 // @namespace    QuizletBot by Retrospicer
-// @version      0.1
+// @version      0.2
 // @description  A Quizlet hack to assist with your Quizlets - the time will freeze at the desired point and the answers will be highlighted as the same color.
 // @updateURL    https://github.com/TamoghnaK13/QuizletBot/raw/main/Quizletbot.user.js
 // @downloadURL  https://github.com/TamoghnaK13/QuizletBot/raw/main/Quizletbot.user.js
@@ -21,7 +21,7 @@ var gravityScore,
 	function initLoad() {
 		if (href.includes("quizlet.com")) {
 			if (href.includes("/learn")) {
-				cAlert('<h2>Game Mode: Learn</h2>Thank you for using QuizletBot<br>Without you, this exploit wouldnt be possible.<br><h4>Instructions:</h4>Just wait for this script to finish!<br><br><button class="UIButton" id="learnButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+				cAlert('<h2>Game Mode: Learn</h2>Thank you for using QuizletBot<br>Without you, this exploit would not be possible.<br><h4>Instructions:</h4>Just wait for this script to finish!<br><br><button class="UIButton" id="learnButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
 				getId("learnButton").addEventListener("click", function() {
 					document.getElementById("customMessageContainer").remove();
 					learn();
